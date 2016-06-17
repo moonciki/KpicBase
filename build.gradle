@@ -44,10 +44,6 @@ dependencies {
 
     compile 'org.springframework.data:spring-data-redis:1.0.2.RELEASE'
     compile 'javassist:javassist:3.9.0.GA'
-
-    compile 'org.apache.shiro:shiro-core:1.2.2'
-    compile 'org.apache.shiro:shiro-web:1.2.2'
-    compile 'org.apache.shiro:shiro-spring:1.2.2'
     compile 'redis.clients:jedis:2.1.0'
     compile 'commons-pool:commons-pool:1.6'
     compile 'org.jsoup:jsoup:1.6.2'

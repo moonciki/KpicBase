@@ -1,0 +1,84 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : KpicBase:KpicBase : KpicBase-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/KpicBase/exploded/KpicBase-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="KpicBase/web/Web Gradle : KpicBase-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="KpicBase" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-email:1.1" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.3" />
+          <element id="library" level="project" name="Gradle: commons-fileupload:commons-fileupload:1.2.1" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.1.2" />
+          <element id="library" level="project" name="Gradle: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Gradle: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Gradle: cglib:cglib:2.2.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jms:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.activemq:activemq-all:5.11.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-redis:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: javassist:javassist:3.9.0.GA" />
+          <element id="library" level="project" name="Gradle: redis.clients:jedis:2.1.0" />
+          <element id="library" level="project" name="Gradle: commons-pool:commons-pool:1.6" />
+          <element id="library" level="project" name="Gradle: org.jsoup:jsoup:1.6.2" />
+          <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Gradle: com.alibaba:fastjson:1.1.22" />
+          <element id="library" level="project" name="Gradle: commons-net:commons-net:3.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.5" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.2.4" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.4.0" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.7" />
+          <element id="library" level="project" name="Gradle: com.qiniu:qiniu-java-sdk:7.0.9" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.2" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.2.1" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpmime:4.2" />
+          <element id="library" level="project" name="Gradle: org.json:org.json:chargebee-1.0" />
+          <element id="library" level="project" name="Gradle: javax.mail:mail:1.4" />
+          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Gradle: asm:asm:3.3.1" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.7.2" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.4.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.4.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.4.0" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.7" />
+          <element id="library" level="project" name="Gradle: com.squareup.okhttp:okhttp:2.7.1" />
+          <element id="library" level="project" name="Gradle: com.squareup.okio:okio:1.6.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.3.1" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.12" />
+          <element id="library" level="project" name="Gradle: com.alibaba:druid:1.0.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/KpicBase/exploded/KpicBase-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

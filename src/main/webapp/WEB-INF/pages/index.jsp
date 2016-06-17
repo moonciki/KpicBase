@@ -11,7 +11,18 @@
     <title>咔哔圈子后台管理</title>
 </head>
 <body>
-  <span style="color:#ff8498;font-size: 18px;font-family:微软雅黑">咔哔圈子后台管理系统</span>
-  <hr/>
+<%@include file="./Top.jsp" %>
+
+<div class="main">
+  <button type="button" onclick="window.location.href='${pageContext.request.contextPath}/pbar/types'" class="btn btn-success">
+    <span class="glyphicon glyphicon-tags"></span>
+    &nbsp;圈子类别管理
+  </button>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" onclick="window.location.href='${pageContext.request.contextPath}/material/upload'" class="btn btn-danger">
+    <span class="glyphicon glyphicon-picture"></span>
+    &nbsp;上传素材图片
+  </button>
+</div>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kpic.base.mapper.PbarTypeMapper">
+
+    <select id="getAllType" resultType="cn.kpic.base.domain.PbarType">
+        SELECT * FROM tb_pbar_type ORDER BY weight DESC
+    </select>
+
+    <update id="update" parameterType="cn.kpic.base.domain.PbarType">
+        update tb_pbar_type
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name != null">name = #{name,jdbcType=VARCHAR},</if>
+            <if test="picUrl != null">picUrl = #{picUrl,jdbcType=VARCHAR},</if>
+            <if test="weight != null">weight = #{weight,jdbcType=INTEGER},</if>
+            <if test="isIndex != null">isIndex = #{isIndex, jdbcType=INTEGER},</if>
+            <if test="createTime != null">createTime = #{createTime,jdbcType=TIMESTAMP},</if>
+        </trim>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+
+</mapper>
